@@ -1,0 +1,17 @@
+﻿<div class="text-center payment-container">
+<form asp-action="ProcessPayment" method="post">
+    <p>Nu är det äntligen din tur i kön! Välj vilken valuta du vill betala i.</p>
+    <div class="form-group">
+        <label for="currencyType">Valuta</label>
+        <select id="currencyType" name="currencyType">
+            <option value="Euro">Euro</option>
+            <option value="SEK">SEK</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="checkout-btn">Betala</button>
+    </div>
+</form>
+</div>
+
+

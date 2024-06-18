@@ -1,0 +1,7 @@
+﻿<div class="text-center">
+    <h5>Du har könummer @ViewData["QueNumber"]</h5>
+    <p>Medans du väntar på din tur kan du förbereda ditt biljettköp genom att välja biljettkategori och vilken valuta du vill betala i.</p>
+    <form asp-controller="PriceCalculator" asp-action="Index">
+        <button class="ticket-btn">Kolla på biljetter</button>
+    </form>
+</div>

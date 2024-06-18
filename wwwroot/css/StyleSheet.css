@@ -1,0 +1,52 @@
+﻿body {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+
+.que-btn, .ticket-btn, .payment-btn {
+    background-color: #5A72A0;
+    color: #FDFFE2;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: 1px 2px 2px #9a9a9a;
+}
+
+.que-btn:hover, .ticket-btn:hover, .payment-btn:hover {
+    background-color: #8a97b0;
+}
+
+.list-group {
+    margin-top: 50px;
+}
+.list-group-item {
+    text-align: center;
+    background-color: #5A72A0;
+    color: #FDFFE2;
+}
+.ticketPrice-container {
+    text-align: center;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.payment-container{
+}
+.form-group{
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    background-color: #5A72A0;
+    color: #FDFFE2;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: 1px 2px 2px #9a9a9a;
+}
+.checkout-btn:hover {
+    background-color: #8a97b0;
+}

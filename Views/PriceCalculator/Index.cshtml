@@ -1,0 +1,13 @@
+﻿<div class="list-group list-group-horizontal">
+    <a href="@Url.Action("StudentTicket", "PriceCalculator")" class="list-group-item list-group-item-action">Studentbiljett</a>
+    <a href="@Url.Action("SeniorTicket", "PriceCalculator")" class="list-group-item list-group-item-action">Seniorbiljett</a>
+    <a href="@Url.Action("YouthTicket", "PriceCalculator")" class="list-group-item list-group-item-action">Ungdomsbiljett</a>
+    <a href="@Url.Action("AdultTicket", "PriceCalculator")" class="list-group-item list-group-item-action">Vuxenbiljett</a>
+</div>
+<div class="ticketPrice-container">
+    <p>Ordinarie pris: @ViewData["TicketPrice"]</p>
+    <p>Ditt pris: @ViewData["TotalAmount"]</p>
+    <form asp-controller="Payment" asp-action="Index">
+        <button class="payment-btn">Gå till kassan</button>
+    </form>
+</div>
